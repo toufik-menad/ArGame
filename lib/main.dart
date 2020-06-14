@@ -1,17 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:gameseeds/theme/theme.dart';
 
 void main() {
   runApp(Game());
 }
 
-///return a ThemeData.
-ThemeData getThemeData(){
-  return ThemeData(
-  primaryColor: Color.fromRGBO(50, 236, 228, 1),
-  visualDensity: VisualDensity.adaptivePlatformDensity,
-  backgroundColor: Color.fromRGBO(189, 236, 228, 1),
-  );
-}
 
 /// returns the app title.
 String getTitle(){
