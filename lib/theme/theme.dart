@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 ///return a ThemeData.
 ThemeData getThemeData(){
   return ThemeData(
-    primaryColor: Color.fromRGBO(50, 236, 228, 1),
+    primaryColor: Colors.tealAccent,
+    secondaryHeaderColor: Colors.amber,
     visualDensity: VisualDensity.adaptivePlatformDensity,
-    backgroundColor: Color.fromRGBO(189, 236, 228, 1),
+    backgroundColor: Colors.yellow,
+    buttonColor: Colors.amber,
   );
 }
